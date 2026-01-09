@@ -3,33 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        #overlay {
-          position: fixed;
-          display: block;
-          width: 100%;
-          height: 100;
-          background-color: rgb(243, 189, 236);
-          z-index: 2;
-        }
-        #fuente {
-            color: black;
-            font-family: 'Trebuchet MS';
-        }
-        .main {
-            color: pink;
-            top: 100;
-        }
-    </style>
+    <link rel="stylesheet" href="css/e.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Pasteleria</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<img class="fondo" src="fondo idk.png" width="100%" height="100%">
+<!--
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body style="background-color:rgba(161, 108, 139, 1);">
+<body style="background-color:rgb(150, 207, 221);">
+    
+
     <div id="overlay">
-        <div id="text">Overlay Text</div>
+        <img src="menu icon.png" height="20" width="20">
     </div>
     <div class="container-main" style="text-align:center;margin: top 100px;;">
         <div class="empresa-idk">
@@ -39,6 +29,7 @@
                 <img src="https://preview.redd.it/where-can-i-find-hd-image-of-the-mambo-girl-v0-tseanx4mn89e1.png?width=338&format=png&auto=webp&s=5689cbe4d0fe1ee994f2970b49ffe514129d177e" width="200" height="200">
             </div>
         </div>
+        <br>
         <div class="mision">
             nuestra mision idk
         </div>
@@ -46,6 +37,79 @@
 
         </div>
 
+    </div>
+
+</body>
+
+    <button id="boton" onclick="toggle()">
+        <img src="menu icon.png" height="60" width="60">
+    </button>
+    <nav id="menu">
+        <ul>
+           <li>
+                <a href="a.html">
+                    <span>Blog</span>
+                </a>
+           </li> 
+           <li>
+                <a href="a.html">
+                    <span>Productos</span>
+                </a>
+           </li>
+           <li>
+                <a href="a.html">
+                    <span>Contacto</span>
+                </a>
+           </li>
+           <li>
+                <a href="a.html">
+                    <span>Sobre nosotros</span>
+                </a>
+           </li>
+        </ul>
+    </nav>
+
+<script>
+    function toggle() {
+        valorActual = document.getElementById("menu")
+    }
+</script>
+-->
+<body>
+
+    <div class="menu">
+        <div class="links">
+            <a href="a.html">
+                <span>Blog</span>
+            </a>
+            <a href="a.html">
+                <span>Productos</span>
+            </a>
+            <a href="a.html">
+                <span>Contacto</span>
+            </a>
+            <a href="a.html">
+                <span>Sobre nosotros</span>
+            </a>
+        </div>
+    </div>
+    <div class="main">
+        <h1>Pasteleria Mil Sabores</h1>
+        <img src="https://preview.redd.it/where-can-i-find-hd-image-of-the-mambo-girl-v0-tseanx4mn89e1.png?width=338&format=png&auto=webp&s=5689cbe4d0fe1ee994f2970b49ffe514129d177e" width="200" height="200">
+        <p>
+            <a href="a.html">
+            <span>Blog</span>
+            </a>
+            <a href="a.html">
+                <span>Productos</span>
+            </a>
+            <a href="a.html">
+                <span>Contacto</span>
+            </a>
+            <a href="a.html">
+                <span>Sobre nosotros</span>
+            </a>
+        </p>
     </div>
 
 </body>
