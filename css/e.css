@@ -69,3 +69,9 @@ body {
   font-size: xx-large;
     color:var(--fuente-2);
 }
+
+.table {
+  background-color: #F89FF7;
+  alignment-baseline: middle;
+  table-layout: auto;
+}
