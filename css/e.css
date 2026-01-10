@@ -20,17 +20,30 @@
   z-index: -1;
 }
 
-.menu {
+#menu {
+  position: fixed;
   z-index: 1;
   width: 200px;
   height: 100svh;
   background-color: var(--color-menu);
 }
 
-.menu a {
+#menu.no {
+  visibility: hidden;
+}
+
+#menu a {
   display: block;
   padding-top: 30px;
   color: var(--fuente-1);
+  font-family: "Coiny", system-ui;
+  font-weight: 700;
+  font-size: large;
+}
+
+.boton {
+  position: fixed;
+  z-index: 4;
 }
 
 .links {
@@ -40,11 +53,19 @@
 
 body {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto;
   background-color: var(--color-bg)
 }
 
 .main {
+  padding-top: 20px;
   align-content: middle;
-  text-align:center;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+.main a {
+  font-size: xx-large;
+    color:var(--fuente-2);
 }
