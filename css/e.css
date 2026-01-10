@@ -75,3 +75,10 @@ body {
   alignment-baseline: middle;
   table-layout: auto;
 }
+
+.about {
+  align-content: middle;
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 5%;
+}
